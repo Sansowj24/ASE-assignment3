@@ -1,0 +1,56 @@
+<!-- All the files that are required -->
+<link rel="stylesheet" href="css.css">
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+<script src="js.js"></script>
+<script src="google.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<!-- Where all the magic happens -->
+<!-- LOGIN FORM -->
+<body background="lock.jpg">
+<div class="text-center" align="center" style="padding:50px 0">
+    <div class="logo">LOGIN</div>
+    <!-- Main Form -->
+    <div class="login-form-1">
+        <form id="login-form" class="text-left" action="home2.html">
+            <div class="login-form-main-message"></div>
+            <div class="main-login-form">
+                <div class="login-group">
+                    <div class="form-group">
+                       <!-- <label for="lg_username" class="sr-only">Username</label> -->
+                        <input type="text" class="form-control" id="lg_username" name="lg_username" placeholder="USERNAME">
+                    </div>
+                    <div class="form-group">
+                        <!-- <label for="lg_password" class="sr-only">Password</label> -->
+                        <input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="PASSWORD">
+                    </div>
+                    <div class="form-group login-group-checkbox">
+                        <input type="checkbox" id="lg_remember" name="lg_remember" value="checked">
+                        <label for="lg_remember">remember</label>
+                    </div>
+                </div>
+                <button type="submit" color="green" value="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
+
+            </div>
+            <!--<div class="etc-login-form">
+                <p>forgot your password? <a href="forgot.html">click here</a></p>
+                <p>new user? <a href="regis.html">create new account</a></p>
+            </div> -->
+
+        </form>
+
+    </div>
+    <!-- end:Main Form -->
+    <div>
+        <form onclick="login()" action="home2.html">
+        <label style="font-family: 'Varela Round'; color: white">LOGIN WITH</label>
+        <input type="image"  src="gmail.png" value="Submit" style="width:80px; height:30px;">
+        <!--<button type="button" style="margin: 6px 2px; background-size: 12px 2px; max-width: 400px; color: #ffffff; background: #ff0000; font-size: 20px; font-family: 'Varela Round'">GOOGLE</button>
+    --></input>
+        </form>
+    </div>
+</div>
+
+</body>>
+
